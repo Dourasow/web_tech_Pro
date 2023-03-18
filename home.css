@@ -1,0 +1,105 @@
+/* @import url("https://fonts.googleapis.com.css?familly=Inter:400|Montserrat:400,700,500,600"); */
+*{
+    padding: 0;
+    margin:0;
+    /* box-sizing: border-box; */
+}
+@import url("syleguide.css");
+
+.splash-screen {
+    align-items: center;
+    background: linear-gradient(180deg, rgba(229,0,0,0.71) 9.02%, rgba(221.22,5.5,6.55,0.72) 11.25%, rgb(21,147,175) 68.67%);
+    background-color: rgba(255,255,255,1);
+    border: 1px none;
+    display: flex;
+    height: 600px;
+    padding: 0 31px;
+    margin-left: 500px;
+    width: 300px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.display-front {
+    align-items: center;
+    background-color: #222222;
+    box-shadow: inset 0px 4px 4px #00000040;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+    min-height: 200px;
+    padding: 200px 0;
+    margin-bottom: 200px;
+    width: 312px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.make-small-something {
+    color: #c0cc40;
+    font-family: var(--font-family-montserrat);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1px;
+    margin-top: 44px;
+    min-height: 46px;
+    text-align: center;
+    width: 245px;
+}
+
+/* .start-button {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 30px;
+    margin-top: 5px;
+    padding: 0px 0;
+    width: 80px;
+    background-color: #1AB8DB;
+} */
+
+/* .overlap-group {
+    align-items: center;
+    background-size: 100% 100%;
+    display: flex;
+    height: 45px;
+    justify-content: flex-end;
+    min-width: 40px;
+    padding: 8px 21px;
+} */
+
+.overlap-group > button{
+    color: var(--white);
+    /* font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxx1); */
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 30px;
+    text-align: center;
+    width: 107px;
+    background-color: #1AB8DB;
+    border-radius: 10px;
+}
+
+.title {
+    color: white;
+    font-family: var(--font-family-creepster_caps-regular);
+    font-size: var(-font-size-xxxxl);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 36px;
+    min-height: 100px;
+    text-align: center;
+    width: 256px;
+}
+

@@ -1,0 +1,266 @@
+/* @import url("https://fonts.googleapis.com.css?familly=Inter:400|Montserrat:400,700,500,600"); */
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+@import url("./syleguide.css");
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.home-screen {
+    align-items: flex-start;
+    /* background-color: red; */
+    border: 1px none;
+    display: flex;
+    height: 600px;
+    width: 375px;
+    margin-left: 500px;
+}
+
+.app-bar {
+    /* height: 100px; */
+    margin-left: 1px;
+    width: 60px;
+    height: 60px;
+    /* left: 100; */
+    position: fixed;
+    top: 0;
+    /* width: 375px; */
+    z-index: 3;
+    margin-left: 150px;
+}
+
+.bottom-bar {
+    height: 50px;
+    left: 0;
+    position: fixed;
+    /* top: 8px; */
+    width: 50px;
+    z-index: 2;
+    background-color: #1AB8DB;
+    margin-top: 540px;
+    margin-left: 665px;
+    border-radius: 40px;
+}
+
+/* .home-body {
+    align-items: flex-end;
+    display: flex;
+    height: 631px;
+    margin-top: 70px;
+    min-width: 375px;
+    z-index: 1;
+} */
+
+/* .overlap-group2 {
+    height: 630px;
+    position: relative;
+    width: 375px;
+} */
+
+.button {
+    align-items: center;
+    border: 2px solid;
+    border-color: #A9E5F2;
+    border-radius: 20px;
+    display: flex;
+    height: 42px;
+    left: 122px;
+    min-width: 100px;
+    position: absolute;
+    top: 480px;
+    margin-left: 500px;
+
+}
+
+/* .overlap-group1 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+    min-width: 130px;
+    padding: 0 15px;
+} */
+
+.load-more {
+    height: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    min-width: 99px;
+    text-align: center;
+    color: #1AB8DB;
+}
+
+/* .valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+/* .todo-item {
+    height: 360px;
+    left: 0;
+    position: absolute;
+    top: 135px;
+    width: 375px;
+} */
+
+.controls-home {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-color: #22222280;
+    display: flex;
+    height: 52px;
+    left: 14px;
+    min-width: 347px;
+    position: absolute;
+    top: 40px;
+    margin-left: 475px;
+}
+
+.overlap-group {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    gap: 179px;
+    height: 50px;
+    justify-content: flex-end;
+    min-width: 345px;
+    padding: 13px 10px;
+    
+}
+
+.view-all {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 9px;
+    min-height: 5px;
+    text-align: right;
+    width: 73px;
+    color: #1AB8DB;
+}
+
+.address {
+    /* align-self: flex-end; */
+    color: black;
+    /* font-family: var(--font-family-montserrat); */
+    /* font-size: var(--font-size-l);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 21px; */
+    width: 72px;
+    margin-top: 9px;
+}
+
+.todo-item-header {
+    align-items: center;
+    background-color: #d9d9d9;
+    border-radius: 4px;
+    display: flex;
+    height: 45px;
+    left: 15px;
+    min-width: 345px;
+    padding: 0 9px;
+    position: absolute;
+    top: 99px;
+    margin-left: 475px;
+}
+
+.icon-check-hidden {
+    background-color: white;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 1px;
+    width: 20px;
+    
+}
+
+.place {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    margin-left: 28px;
+    min-height: 19px;
+    text-align: center;
+    width: 51px;
+}
+
+.task {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    margin-left: 100px;
+    min-height: 19px;
+    text-align: center;
+    width: 72px;    
+}
+
+.home-content {
+    background-color: white;
+    height: 630px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 345px;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 14px;
+    transition: 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #b2bec3;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+/* <img class="todo-item" src="todo-item.svg" alt="Todo Item"/> */

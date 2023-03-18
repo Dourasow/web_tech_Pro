@@ -1,0 +1,71 @@
+/* variables */
+:root {
+    --black-2: rgba(0,0,0,0.8);
+    --black: rgba(0,0,0,1);
+    --cerulean-2: rgba(25,184,219,0.851);
+    --cerulean: rgba(26,184,219,1);
+    --log-cabin: rgba(34,34,34,1);
+    --red: rgba(255,0,0,1);
+    --white: rgba(255,255,255,1);
+
+    --font-size-m: 14px;
+    --font-size-l: 15px;
+    --font-size-xl: 16px;
+    --font-size-xxl: 20px;
+    --font-size-xxxl: 24px;
+    --font-size-xxxxl: 32px;
+
+    --font-family-creepster_caps-regular: "Creepster Caps-Regular";
+    --font-family-inter: "Inter";
+    --font-family-montserrat: "Montserrat";
+}
+
+/* Classes */
+
+.montserrat-normal-black-14px {
+    color: var(--black-2);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-semi-bold-white-15px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-medium-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.montserrat-bold-cerulean-16px {
+    color: var(--cerulean);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-semi-bold-ceulean-15px {
+    color: var(--cerulean);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    font-style: normal;
+}
